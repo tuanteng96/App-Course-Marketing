@@ -1,0 +1,69 @@
+{
+  "cwd": "E:\\App\\CourseMarketing",
+  "type": [
+    "web"
+  ],
+  "name": "Course Marketing",
+  "framework": "react",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": "less",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": true,
+  "customBuildConfig": {
+    "rtl": false,
+    "darkTheme": true,
+    "lightTheme": true,
+    "themes": [
+      "ios"
+    ],
+    "components": [
+      "dialog",
+      "popup",
+      "popover",
+      "actions",
+      "sheet",
+      "toast",
+      "preloader",
+      "progressbar",
+      "sortable",
+      "swipeout",
+      "accordion",
+      "virtual-list",
+      "list-index",
+      "tabs",
+      "panel",
+      "card",
+      "chip",
+      "form",
+      "input",
+      "checkbox",
+      "radio",
+      "toggle",
+      "range",
+      "stepper",
+      "smart-select",
+      "grid",
+      "picker",
+      "infinite-scroll",
+      "pull-to-refresh",
+      "fab",
+      "searchbar",
+      "messages",
+      "swiper",
+      "photo-browser",
+      "notification",
+      "autocomplete",
+      "tooltip",
+      "gauge",
+      "skeleton",
+      "text-editor",
+      "breadcrumbs"
+    ]
+  }
+}

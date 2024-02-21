@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --ezs-theme-color: #BF6C1F;
+    --f7-ios-primary: var(--ezs-theme-color);
+    --f7-font-family: 'Be Vietnam Pro', sans-serif;
+    --f7-navbar-height: 48px;
+    --f7-navbar-bg-color: var(--ezs-theme-color);
+    --f7-navbar-border-color: "#f5d49f";
+    --f7-toolbar-height: 48px;
+    --f7-button-fill-pressed-bg-color: #f1bc68;
+    --f7-tabbar-link-active-color: var(--ezs-theme-color);
+    --f7-button-large-font-size: 15px;
+    --f7-button-large-font-weight: 600;
+    --f7-button-large-height: 48px;
+    --f7-dialog-button-strong-font-weight: 400;
+    --f7-dialog-button-font-size: 16px;
+    --f7-calendar-week-header-height: 45px;
+    --f7-calendar-day-size: 40px;
+    --f7-calendar-selected-bg-color: var(--ezs-theme-color);
+    --f7-calendar-today-bg-color: #F3F6F9;
+    --f7-actions-button-font-size: 15px;
+    --f7-actions-button-height: 50px;
+    --f7-actions-button-text-color: "#3f4254";
+    --f7-sheet-border-radius: 16px;
+    --f7-toggle-inactive-border-color: #EBEDF3;
+    --f7-toggle-inactive-bg-color: transparent;
+    --f7-actions-bg-color: #fff;
+    --f7-subnavbar-bg-color: #fff;
+    --f7-photobrowser-bars-bg-color: var(--ezs-theme-color);
+    --f7-photobrowser-bars-text-color: #fff;
+    --f7-photobrowser-bars-link-color: #fff;
+    --f7-photobrowser-caption-light-text-color: #fff;
+    --f7-timeline-margin-vertical: 0;
+    --f7-timeline-padding-horizontal: 0;
+    --f7-text-editor-margin: 0;
+    --f7-text-editor-padding: 16px;
+    --f7-text-editor-height: 180px;
+    --ezs-safe-area-bottom: var(--f7-safe-area-bottom);
+    --ezs-safe-area-top: var(--f7-safe-area-top);
+    --swiper-pagination-bullet-inactive-color: #CDD9E3;
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-color: var(--ezs-theme-color);
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+
+/* Page */
+
+.page-shadow-effect {
+    background: transparent;
+}
+
+.page-content::-webkit-scrollbar {
+    display: none;
+}
+
+.page-content {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/* Swiper */
+
+swiper-container::part(bullet-active) {
+    --swiper-pagination-bullet-width: 20px;
+    --swiper-pagination-bullet-border-radius: 5px
+}
+
+.on-boarding-swiper swiper-container::part(pagination) {
+    --swiper-pagination-bottom: 20px;
+}
