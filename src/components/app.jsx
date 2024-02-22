@@ -22,7 +22,7 @@ const MyApp = () => {
     name: "Course Marketing", // App name
     theme: "ios", // Automatic theme detection
     colors: {
-      primary: "#BF6C1F",
+      primary: "#0961F5",
     },
     // App store
     store: store,

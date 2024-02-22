@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-    --ezs-theme-color: #BF6C1F;
+    --ezs-theme-color: #0961F5;
     --f7-ios-primary: var(--ezs-theme-color);
     --f7-font-family: 'Be Vietnam Pro', sans-serif;
     --f7-navbar-height: 48px;

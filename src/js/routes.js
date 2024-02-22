@@ -1,4 +1,6 @@
-import OnBoardingPage from "../pages/OnBoarding/index";
+
+import OnBoardingPage from "@/pages/OnBoarding/index.jsx";
+import LoginPage from "@/pages/Login";
 
 import HomePage from "../pages/home.jsx";
 import AboutPage from "../pages/about.jsx";
@@ -8,10 +10,18 @@ import DynamicRoutePage from "../pages/dynamic-route.jsx";
 import RequestAndLoad from "../pages/request-and-load.jsx";
 import NotFoundPage from "../pages/404.jsx";
 
+
 var routes = [
   {
     path: "/",
     component: OnBoardingPage,
+  },
+  {
+    path: "/login/",
+    component: LoginPage,
+    options: {
+      transition: "f7-cover",
+    },
   },
   {
     path: "/about/",
